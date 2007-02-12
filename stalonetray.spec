@@ -1,5 +1,5 @@
 Summary:	A stand-alone system tray
-Summary(pl):	Samodzielna tacka systemowa
+Summary(pl.UTF-8):   Samodzielna tacka systemowa
 Name:		stalonetray
 Version:	0.6.2
 Release:	1
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The stalonetray is a STAnd-aLONE system tray. It runs under virtually
 any window manager.
 
-%description -l pl
-stalonetray jest samodzieln± tack± systemow±. Dzia³a on w³a¶ciwie z
-ka¿dym zarz±dc± okien.
+%description -l pl.UTF-8
+stalonetray jest samodzielnÄ… tackÄ… systemowÄ…. DziaÅ‚a on wÅ‚aÅ›ciwie z
+kaÅ¼dym zarzÄ…dcÄ… okien.
 
 %prep
 %setup -q
