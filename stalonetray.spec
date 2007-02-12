@@ -1,5 +1,5 @@
 Summary:	A stand-alone system tray
-Summary(pl.UTF-8):   Samodzielna tacka systemowa
+Summary(pl.UTF-8):	Samodzielna tacka systemowa
 Name:		stalonetray
 Version:	0.6.2
 Release:	1
