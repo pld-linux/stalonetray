@@ -1,0 +1,8 @@
+--- stalonetray-0.6.3/src/Makefile.am.orig	2006-12-27 07:34:17.000000000 +0100
++++ stalonetray-0.6.3/src/Makefile.am	2007-04-07 19:16:35.853975164 +0200
+@@ -5,4 +5,4 @@
+ EXTRA_stalonetray_SOURCES = kde_tray.c kde_tray.h
+ stalonetray_DEPENDENCIES = @kde_tray_support@
+ INCLUDES = @X_CFLAGS@
+-stalonetray_LDADD = @kde_tray_support@ @X_LIBS@ @X_PRE_LIBS@ -lX11 @X_EXTRA_LIBS@
++stalonetray_LDADD = @kde_tray_support@ @X_LIBS@ -lX11 @X_EXTRA_LIBS@
