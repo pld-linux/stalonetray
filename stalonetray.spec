@@ -1,12 +1,12 @@
 Summary:	A stand-alone system tray
 Summary(pl.UTF-8):	Samodzielna tacka systemowa
 Name:		stalonetray
-Version:	0.7.3
+Version:	0.7.4
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/stalonetray/%{name}-%{version}.tar.bz2
-# Source0-md5:	50376cbd6515ecaa78b6e73705b038ee
+# Source0-md5:	f399340791aed02b79abba036893bd2b
 Patch0:		%{name}-link.patch
 URL:		http://stalonetray.sourceforge.net/
 BuildRequires:	autoconf
@@ -32,7 +32,8 @@ każdym zarządcą okien.
 %{__autoconf}
 %{__autoheader}
 %{__automake}
-%configure
+%configure \
+	--disable-debug
 %{__make}
 
 %install
@@ -46,6 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog NEWS README TODO
+%doc AUTHORS ChangeLog NEWS README TODO stalonetrayrc.sample
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1*
