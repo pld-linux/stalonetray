@@ -1,12 +1,12 @@
 Summary:	A stand-alone system tray
 Summary(pl.UTF-8):	Samodzielna tacka systemowa
 Name:		stalonetray
-Version:	0.7.5
+Version:	0.7.6
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/stalonetray/%{name}-%{version}.tar.bz2
-# Source0-md5:	203945244bb4bd1b96915b57ed422336
+# Source0-md5:	eebb46182b64d75b89776bbfc867f470
 Patch0:		%{name}-link.patch
 URL:		http://stalonetray.sourceforge.net/
 BuildRequires:	autoconf
